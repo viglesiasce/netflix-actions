@@ -4,4 +4,5 @@ description: 'Optimized build with Nebula'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args: "Build done."
+  args:
+  - "Build done."
