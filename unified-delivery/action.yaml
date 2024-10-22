@@ -1,8 +1,8 @@
 # action.yml
-name: 'Nebula Test'
-description: 'Optimized testing with Nebula'
+name: 'Trigger Unified Delivery'
+description: 'Trigger Unified Delivery to deploy'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-  - "Testing done."
+  - "Delivery flow complete."

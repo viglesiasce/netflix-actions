@@ -1,8 +1,8 @@
 # action.yml
-name: 'Nebula Test'
-description: 'Optimized testing with Nebula'
+name: 'Create Deployment Manifest'
+description: 'Create a deployment manifest from your built artifacts'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-  - "Testing done."
+  - "Creation of deployment manifest complete done."
