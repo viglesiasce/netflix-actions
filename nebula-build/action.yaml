@@ -1,0 +1,7 @@
+# action.yml
+name: 'Nebula Build'
+description: 'Optimized build with Nebula'
+runs:
+  using: 'docker'
+  image: ubuntu
+  command: 'echo Build Complete'
