@@ -1,0 +1,8 @@
+# action.yml
+name: 'Newt Build'
+description: 'Optimized building with Newt'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+  - "Build done."

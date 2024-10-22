@@ -1,0 +1,8 @@
+# action.yml
+name: 'Newt Test'
+description: 'Optimized testing with Newt'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+  - "Testing done."
