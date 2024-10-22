@@ -1,0 +1,8 @@
+# action.yml
+name: 'Nebula Test'
+description: 'Optimized testing with Nebula'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+  - "Testing done."
